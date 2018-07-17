@@ -6,7 +6,7 @@
     end
     
     get'/Chase' do
-      "my name is chase chase"
+      "Yo my name chase"
   end
   
 end
