@@ -1,5 +1,7 @@
+config.ru
+
 require 'sinatra'
 require './application_controller.rb'
 
-run MyApp
+run MyApplication
 
