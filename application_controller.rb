@@ -1,10 +1,7 @@
-require 'bundler'
-Bundler.require
-
-class MyApp < Sinatra::Base
-
-  get '/' do
-    erb :index
+ require "sinatra"
+  class App < Sinatra::Base
+    get'/' do
+      "Hello, World!"
+    end
+    
   end
-
-end
